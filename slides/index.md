@@ -36,18 +36,46 @@
 
 ***
 
-### What this talk is about
+### What is property based testing?
 
-- What is F#
-- Basics
-- REPL
-- Summary
+> The thing that QucikCheck does.
+
+---
+
+### Not Quite
+
+    [lang=C#]
+    public class SomeClass 
+    {
+        public string PropertyToTest { get; set; }
+    }
+
+---
+
+### Merriam-Webster Definition of Property
+
+- a quality or trait belonging and especially peculiar to an individual or thing
+- an attribute common to all members of a class 
+
+---
+
+### Reworked Definition
+
+- a trait belonging to a function or process
+- a result common to all members of a group or subset of inputs
 
 ***
 
+### Why do we need this?
+
+- TDD
+- BDD
+- CCwC@2AMDD
+
+---
+
 ### Extra Resources
 
-- 
 - F# for Fun and Profit (https://fsharpforfunandprofit.com)
 - Testing the Hard Stuff and Staying Sane (https://www.youtube.com/watch?v=zi0rHwfiX1Q)
 - Winnipeg .Net Slack (http://winnipegdotnet.org)
