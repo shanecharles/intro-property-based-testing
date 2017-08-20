@@ -36,6 +36,25 @@
 
 ***
 
+### We've got TDD
+
+---
+
+### TDD is Good
+
+- Build code one test at a time
+- Growth with stability
+
+---
+
+### TDD has Limits
+
+- Testing through example
+- All tests have exactly expected results 
+- Limited to the imagination of the developer
+
+***
+
 ### What is property based testing?
 
 > The thing that QucikCheck does.
@@ -61,18 +80,9 @@
 
 ### Reworked Definition
 
-- a trait belonging to a function or process
-- a result common to all members of a group or subset of inputs
+A trait belonging to a function or process with results common to all members of a group of inputs.
 
 ***
-
-### Why do we need this?
-
-- TDD
-- BDD
-- CCwC@2AMDD
-
----
 
 ### Extra Resources
 
