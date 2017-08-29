@@ -36,14 +36,18 @@
 
 ***
 
-### We've got TDD
+### We Already Have
+
+- unit tests
+- integration tests
 
 ---
 
-### TDD is Good
+### The Power of TDD
 
-- Build code one test at a time
+- Build code one failure at a time
 - Growth with stability
+- Regression sanity checks
 
 ---
 
@@ -51,13 +55,16 @@
 
 - Testing through example
 - All tests have exactly expected results 
-- Limited to the imagination of the developer
+- Limited to the imagination/experience of the developer
+- How well do you know the domain?
 
 ***
 
 ### What is property based testing?
 
-> The thing that QucikCheck does.
+> The thing that QucikCheck does.<br/>
+>
+> ~ almost everybody
 
 ---
 
@@ -84,6 +91,30 @@ A trait belonging to a function or process with results common to all members of
 
 ***
 
+### Where to start
+
+---
+
+![libs](images/testing-libraries.png)
+
+---
+
+### Make Some Assumptions
+
+- What do you think is true about your functions
+
+***
+
+### Summary
+
+#### Unit Test
+
+![tdd](images/wile-coyote-fail.gif)
+
+#### Property Based Test
+
+
+***
 ### Extra Resources
 
 - F# for Fun and Profit (https://fsharpforfunandprofit.com)
