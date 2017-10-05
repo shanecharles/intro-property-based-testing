@@ -8,8 +8,6 @@
 
 ### Intro to Property Based Testing
 
-![F#](images/fsharp256.png)
-
 ***
 
 ### About me
@@ -20,21 +18,12 @@
 - Board member for Winnipeg .Net UG
 
 
-    type ContactType = | Email | Twitter | Blog | GitHub
+    type ContactType = | Twitter | Blog | GitHub
 
     let getContactInfo = function
       | Twitter -> "@dead_stroke"
       | Blog    -> "http://geekeh.com"
       | GitHub  -> "shanecharles"
-      | Email   -> "shane_charles@outlook.com"
-
-***
-
-### Roadmap
-
-- What
-- Why
-- How
 
 ***
 
@@ -111,7 +100,15 @@ Any positive number multiplied by negative one will have a result less than zero
  - How many is enough?
 - Active becomes passive testing
 - Legacy code with no tests
-- Race conditions?
+
+---
+
+### Property Advantages
+
+- Generative testing 
+- Generate actions or commands
+ - Race conditions
+ - Specification conflicts
 
 ***
 
@@ -129,7 +126,7 @@ What do you think is true about the code or service?
 
 ---
 
-##### Use Testing Library
+##### Find your Library
 
 ![libs](images/testing-libraries.png)
 
@@ -160,17 +157,18 @@ What do you think is true about the code or service?
 ### There and Back
 
 - Serialization and deserialization
-- Encryption and decryption
 - Set value and get value
-- Write and read
+
+![There and Back](images/there_and_back.png)
 
 ---
 
 ### Different Paths Same Destination
 
-- a + b = b + a
-- a + a = a * 2
-- F() |> G() = G() |> F()
+- x + y = y + x
+- x + x = x * 2
+
+![Same Destination](images/same_destination.png)
 
 ---
 
@@ -193,8 +191,6 @@ What do you think is true about the code or service?
 
 - Compare your results to a different 'proven' solution
   - Performance optimizations
-- Model your state as linerizable steps
-  - Concurrency, race conditions, deadlocks
 
 ---
 
@@ -209,7 +205,7 @@ What do you think is true about the code or service?
 ### Summary
 
 - Coming up with Properties can be difficult
-- Forces us to better understand the domain
+ - Forces us to better understand the domain
 - Not meant for building
 - The more complex the problem the better
 
@@ -235,13 +231,8 @@ What do you think is true about the code or service?
  - https://www.youtube.com/watch?v=zi0rHwfiX1Q
 - Winnipeg .Net Slack (http://winnipegdotnet.org)
 
+***
 
-    type ContactType = | Email | Twitter | Blog | GitHub
-
-    let getContactInfo = function
-      | Twitter -> "@dead_stroke"
-      | Blog    -> "http://geekeh.com"
-      | GitHub  -> "shanecharles"
-      | Email   -> "shane_charles@outlook.com"
+#### Questions
 
 ***
