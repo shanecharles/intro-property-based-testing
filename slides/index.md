@@ -177,6 +177,8 @@ What do you think is true about the code or service?
 - Size of collection
 - elements of a collection after a sort
 
+![Some Never Change](images/some_never_change.png)
+
 ---
 
 ### Hard to Prove Easy to Verify
@@ -230,9 +232,5 @@ What do you think is true about the code or service?
 - Testing the Hard Stuff and Staying Sane by John Hughes
  - https://www.youtube.com/watch?v=zi0rHwfiX1Q
 - Winnipeg .Net Slack (http://winnipegdotnet.org)
-
-***
-
-#### Questions
 
 ***
