@@ -120,17 +120,18 @@ Any positive number multiplied by negative one will have a result less than zero
 
 ---
 
-### Make Some Assumptions
-
-What do you think is true about the code or service?
-
----
-
 ##### Find your Library
 
 ![libs](images/testing-libraries.png)
 
 [http://hypothesis.works/articles/quickcheck-in-every-language/](http://hypothesis.works/articles/quickcheck-in-every-language/)
+
+---
+
+
+### Make Some Assumptions
+
+What do you think is true about the code or service?
 
 ---
 
