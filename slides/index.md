@@ -187,12 +187,16 @@ What do you think is true about the code or service?
  - Verify by concatenating the tokens
 - Sorting
 
+![verify](images/verify.png)
+
 ---
 
 ### Test Oracle
 
 - Compare your results to a different 'proven' solution
   - Performance optimizations
+
+![oracle](images/test_oracle.png)
 
 ---
 
@@ -201,6 +205,9 @@ What do you think is true about the code or service?
 - Generate http requests
  - Get, Post, etc.
  - Accepted HttpStatuses
+
+![crash](images/crash.png)
+
 
 ***
 
