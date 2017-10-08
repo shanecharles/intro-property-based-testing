@@ -120,7 +120,7 @@ Any positive number multiplied by negative one will have a result less than zero
 
 ---
 
-##### Find your Library
+##### Find your Testing Library
 
 ![libs](images/testing-libraries.png)
 
@@ -131,7 +131,7 @@ Any positive number multiplied by negative one will have a result less than zero
 
 ### Make Some Assumptions
 
-What do you think is true about the code or service?
+What do you think is true about the code or process?
 
 ---
 
