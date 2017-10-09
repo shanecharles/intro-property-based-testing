@@ -239,6 +239,7 @@ What do you think is true about the code or process?
  - https://fsharpforfunandprofit.com/posts/property-based-testing/
 - Testing the Hard Stuff and Staying Sane by John Hughes
  - https://www.youtube.com/watch?v=zi0rHwfiX1Q
-- Winnipeg .Net Slack (http://winnipegdotnet.org)
+- PropEr Testing
+ - http://propertesting.com
 
 ***
