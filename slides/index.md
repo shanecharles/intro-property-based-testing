@@ -106,9 +106,9 @@ Any positive number multiplied by negative one will have a result less than zero
 ### Property Advantages
 
 - Generative testing 
+- Always active testing
 - Generate actions or commands
- - Race conditions
- - Specification conflicts
+- Race conditions
 
 ***
 
