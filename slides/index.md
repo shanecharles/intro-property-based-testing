@@ -13,7 +13,7 @@
 ### About me
 
 - Shane Charles
-- Consultant with White Light Computing, Inc.
+- White Light Computing, Inc.
 - Functional programming enthusiast
 - Board member for Winnipeg .Net UG
 
